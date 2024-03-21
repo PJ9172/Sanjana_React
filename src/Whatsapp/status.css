@@ -1,0 +1,41 @@
+.container{
+    display: block;
+}
+.row{
+    /* border: 1px solid black; */
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+
+}
+.card{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.top{
+    display: block;
+    margin-left: 10px;
+}
+.name{
+    font-size: 36px;
+    color: white;
+
+}
+.time{
+    font-size:30px ;
+    color: white;
+}
+.caption{
+    font-size: 36px;
+    color: white;
+    
+}
+.bottom{
+    text-align:center;
+
+    margin-top: 240px;
+}

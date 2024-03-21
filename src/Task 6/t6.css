@@ -1,0 +1,36 @@
+.box{
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+}
+.box span{
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 100px;
+}
+body{
+    background-color: rgb(1, 1, 122);
+}
+button{
+    margin-top: 100px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color:  navy;
+}
+button:hover{
+    cursor: pointer;
+}
